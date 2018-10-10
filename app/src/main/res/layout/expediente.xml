@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:padding="10dp"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Dueño"/>
+
+			<Spinner
+				android:id="@+id/dueños"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Modelo"/>
+
+			<EditText
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:layout_height="wrap_content"
+				android:id="@+id/modelo"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Marca"/>
+
+			<EditText
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:layout_height="wrap_content"
+				android:id="@+id/marca"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Año"/>
+
+			<EditText
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:layout_height="wrap_content"
+				android:id="@+id/año"
+				android:inputType="number"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Fecha inicio"/>
+
+			<EditText
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:layout_height="wrap_content"
+				android:id="@+id/fechainicio"
+				android:inputType="date"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Precio"/>
+
+			<EditText
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:layout_height="wrap_content"
+				android:id="@+id/precio"
+				android:inputType="numberDecimal"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Tipo"/>
+
+			<EditText
+				android:id="@+id/tipo"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:layout_height="wrap_content"/>
+
+			
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

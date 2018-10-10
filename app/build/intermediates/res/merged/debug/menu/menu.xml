@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Dueños">
+		<menu>
+		<item
+        	android:id="@+id/mostrardueños"
+        	android:title="Mostrar dueños"/>
+		<item
+        	android:id="@+id/agregardueños"
+        	android:title="Agregar dueños"/>
+		</menu>
+	</item>
+	<item
+        android:title="Polizas">
+		<menu>
+		<item
+        	android:id="@+id/mostrarexpedientes"
+        	android:title="Mostrar polizas"/>
+		<item
+        	android:id="@+id/agregarexpediente"
+        	android:title="Agregar poliza"/>
+		</menu>
+	</item>
+</menu>
